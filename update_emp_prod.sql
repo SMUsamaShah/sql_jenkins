@@ -1,2 +1,2 @@
-ALTER TABLE org.employee_prod
+ALTER TABLE org_prod.employee
 ADD Salary INTEGER;
