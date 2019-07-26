@@ -3,4 +3,4 @@ CREATE VIEW org.MidRangeProducts AS
 	       org.product.Name as ProductName,
 	       org.product.Price as Price
 	FROM org.company, org.product
-	WHERE org.product.CompanyID = org.company.ID AND Price > 500 AND Price < 1500;
+	WHERE org.product.CompanyID = org.company.ID AND Price > 200 AND Price < 1000;
