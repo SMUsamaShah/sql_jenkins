@@ -1,4 +1,4 @@
-CREATE VIEW org.MidRangeProducts AS 
+REPLACE VIEW org.MidRangeProducts AS 
 	SELECT org.company.Name as CompanyName,
 	       org.product.Name as ProductName,
 	       org.product.Price as Price
