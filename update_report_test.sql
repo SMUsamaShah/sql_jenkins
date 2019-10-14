@@ -1,4 +1,4 @@
-REPLACE VIEW DEV_QA.MidRangeProducts AS 
+REPLACE VIEW DEV_QA.MidRangeProducts AS lock row for acess
 	SELECT DEV_QA.Company.Name as CompanyName,
 	       DEV_QA.Product.Name as ProductName,
 	       DEV_QA.Product.Price as Price
